@@ -1,5 +1,4 @@
 # 📙Book Library for mobiles
-##
 Book library is open-source app built for android.
 You can use it for checking inventory of your home library and to check what books you have already read.
 
