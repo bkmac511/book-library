@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const App());
 
-class MyApp extends StatelessWidget {
+class App extends StatelessWidget {
+  const App({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        theme: ThemeData(
-          primaryColor: Colors.blue,
-        ),
-        home: Scaffold(
-          appBar: AppBar(title: Text('kaszanka')),
-        ));
+    return Row(
+      children: [
+        Container(
+          
+        )
+      ],      
+    );
   }
 }
