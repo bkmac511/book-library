@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'layout.dart';
 
 void main() => runApp(const App());
 
@@ -7,12 +8,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Container(
-          
-        )
-      ],      
+    return const MaterialApp(
+      home: Layout(),
     );
   }
 }
